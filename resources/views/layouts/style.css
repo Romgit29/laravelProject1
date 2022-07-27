@@ -1,0 +1,57 @@
+nav{
+  border-bottom: 1px solid red;
+}
+.goodsElem{
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.goodsElem{
+  padding: 7px;
+}
+.goodsElem p{
+  text-align: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto); */
+}
+.el {
+  padding: 3px;
+}
+.count {
+  border: 1px solid grey;
+  width: 35px;
+  text-align: center;
+}
+.addToBasket{
+  display: flex;
+  flex-direction: row;
+}
+.addToBasket button{
+  width: 35px;
+  background-color: green;
+  font-size: 13px;
+  color: white;
+}
+.addToBasketBtn{
+  width: 55px;
+  margin-left: auto;
+}
+.gridGoods {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding-top: 15px;
+}
+.descFields{
+  display:flex;
+}
+.descFields label{
+  width: 100px;
+}
+.descFields input{
+  border: hidden;
+
+}
